@@ -1,0 +1,276 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2165815100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demoSite.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2052937100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teaTest.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2130947700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleTest.init()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "create a user on demoSite",
+        "description": "",
+        "id": "demosite;create-a-user-on-demosite;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 603421799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demoSite.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 586267799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teaTest.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 646239801,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 429455900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we can open demoSite",
+            "match": {
+              "location": "demoSite.we_can_open_demoSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2568107300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we create a user using \"root\" and \"root\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "root",
+                  "offset": 24
+                },
+                {
+                  "val": "root",
+                  "offset": 35
+                }
+              ],
+              "location": "demoSite.we_create_a_user_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1758441899,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "demoSite will have generated the user and allows a log in with \"root\" and \"root\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "root",
+                  "offset": 64
+                },
+                {
+                  "val": "root",
+                  "offset": 75
+                }
+              ],
+              "location": "demoSite.demosite_will_have_generated_the_user_and_allows_a_log_in(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2105408699,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demoSite.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2118673700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teaTest.init()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2069570300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleTest.init()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "create a user on demoSite",
+        "description": "",
+        "id": "demosite;create-a-user-on-demosite;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 584640199,
+              "status": "passed"
+            },
+            "match": {
+              "location": "demoSite.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 592626799,
+              "status": "passed"
+            },
+            "match": {
+              "location": "teaTest.tearDown()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1692552001,
+              "status": "passed"
+            },
+            "match": {
+              "location": "googleTest.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 289288299,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "we can open demoSite",
+            "match": {
+              "location": "demoSite.we_can_open_demoSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2475044900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "we create a user using \"user2\" and \"u2pwd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 24
+                },
+                {
+                  "val": "u2pwd",
+                  "offset": 36
+                }
+              ],
+              "location": "demoSite.we_create_a_user_using_and(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1533830799,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "demoSite will have generated the user and allows a log in with \"user2\" and \"u2pwd\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 64
+                },
+                {
+                  "val": "u2pwd",
+                  "offset": 76
+                }
+              ],
+              "location": "demoSite.demosite_will_have_generated_the_user_and_allows_a_log_in(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "demoSite",
+    "description": "",
+    "id": "demosite",
+    "keyword": "Feature",
+    "uri": "demoSite.feature"
+  }
+]

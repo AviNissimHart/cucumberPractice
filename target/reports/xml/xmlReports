@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="26.40327">
+    <testcase classname="demoSite" name="create a user on demoSite" time="12.941634">
+        <system-out><![CDATA[Given we can open demoSite..................................................passed
+When we create a user using "root" and "root"...............................passed
+Then demoSite will have generated the user and allows a log in with "root" and "root".passed
+]]></system-out>
+    </testcase>
+    <testcase classname="demoSite" name="create a user on demoSite 2" time="13.461636">
+        <system-out><![CDATA[Given we can open demoSite..................................................passed
+When we create a user using "user2" and "u2pwd".............................passed
+Then demoSite will have generated the user and allows a log in with "user2" and "u2pwd".passed
+]]></system-out>
+    </testcase>
+</testsuite>
