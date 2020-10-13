@@ -10,6 +10,8 @@ Examples:
 	|	user	|	password	|
 	| root	| root			|
 	| user2	| u2pwd			|
+	| guest	| guest			|
+	| abel	| weeknd		|
 
 @ignore
   Scenario: Test out tabledata
